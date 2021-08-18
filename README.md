@@ -4,6 +4,7 @@
  2) clonar o repositorio do projeto dentro da pasta src que foi criada.
  3) Rodar comando mvn clean install dentro da pasta /apirest
  4) Rodar comando mvn clean package
- 5) rodar comando docker-compose up dentro da pasta /ambient-java-docker
+ 5) dentro da pasta do ambiente rodar comando docker build -t apirest .
+ 6) rodar comando docker-compose up dentro da pasta /ambient-java-docker
 
    link do repositório: https://github.com/nilsonjrsilva1997/apirest-cars
